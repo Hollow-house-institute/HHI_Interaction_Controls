@@ -1,43 +1,68 @@
 # HHI Interaction Controls
 
-This repository defines **execution-time interaction controls** for systems governed under
-HHI_GOV_01 (Longitudinal Behavioral Governance).
+## Purpose
 
-## Scope
-This repository provides:
-- Human–AI interaction constraints
+Operational interaction controls and execution tooling for HHI-governed systems. Defines execution-time interaction constraints and lock-enforced interaction rules.
+
+## Governance Layer
+
+Governance (HHI_GOV_01 aligned)
+
+## What This Repository Does
+
+This repository defines execution-time interaction controls for systems governed under HHI_GOV_01 (Longitudinal Behavioral Governance).
+
+Provides:
+- Human-AI interaction constraints
 - Execution-time governance rules
 - Lock-enforced interaction definitions
 
-## Governance
-This repository is governed by:
-- HHI_GOV_01
-- Hollow House Institute Standards Library
-- Master License Suite (HHI-MLS)
+## Core Principle
 
-## Canonical Status
-Declared canonical artifacts are listed in LOCK_MANIFEST.md.
-## Governance & Authority Context
+**Time turns behavior into infrastructure.**  
+**Behavior is the most honest data there is.**
 
-This repository is an execution-layer component of the Hollow House Institute governance stack.
+## Authority & Canonical References
 
-Authoritative references:
-- **Governance Standard:** https://github.com/hollowhouseinstitute/HHI_GOV_01
-- **Canonical Glossary & Definitions:** https://github.com/hollowhouseinstitute/Hollow_House_Standards_Library
+Canonical Source:
+https://github.com/Hollow-house-institute/Hollow_House_Standards_Library
 
-Authority is bound via:
-- AUTHORITY.md
-- GOVERNANCE.md
-- LOCK_MANIFEST.md
-- CANONICAL_CHECKSUMS.txt
+Governance Standard:
+https://github.com/Hollow-house-institute/HHI_GOV_01
 
-## Governance
+SYSTEM MAP:
+https://github.com/Hollow-house-institute/HHI_GOV_01/blob/main/SYSTEM_MAP.md
 
-This repository inherits governance authority from the **HHI Governance Export — Core**.
+DOI:
+https://doi.org/10.5281/zenodo.18615600
 
-All execution, datasets, research, and audits are bound to its standards and constraints.
+ORCID:
+https://orcid.org/0009-0009-4806-1949
+
+<!-- HHI_AUTHORITY_BLOCK_START -->
+## Authority & Canonical References
+
+Canonical Source: https://github.com/Hollow-house-institute/Hollow_House_Standards_Library
+
+Governance Standard: https://github.com/Hollow-house-institute/HHI_GOV_01
+
+SYSTEM MAP: https://github.com/Hollow-house-institute/HHI_GOV_01/blob/main/SYSTEM_MAP.md
+
+DOI: https://doi.org/10.5281/zenodo.18615600
+
+ORCID: https://orcid.org/0009-0009-4806-1949
+
+Glossary Version: v1.3.0
+<!-- HHI_AUTHORITY_BLOCK_END -->
+
+## License
+
+This repository is governed under the Hollow House Institute Master License Suite (HHI-MLS).
+
+https://github.com/Hollow-house-institute/Master_License_Suite
+
+No rights are granted beyond those explicitly defined.
 
 ## Enforcement Statement
 
 Authority is enforced through explicit Decision Boundaries, escalation thresholds, and Stop Authority conditions.
-
